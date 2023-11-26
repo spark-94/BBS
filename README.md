@@ -41,6 +41,8 @@ Generated outputs (PSF, CRD, PDB, and system information) are saved in
 	./charmm: CHARMM outputs 
 	./openmm: Inputs for OpenMM simulations
 
+At the end of the assembly, OpenMM and Slurm job scripts are copied to ./openmm for the simulation of the BBS.
+
 If BBS configurations after each minimization step is necessary, edit 
 
     step3_bbs_assembly.sh
@@ -58,10 +60,7 @@ OpenMM equilibration and production runs
 In ./example/openmm_script, scripts for OpenMM simulations are provided.
 These scripts are based on those provided by CHARMM-GUI Membrane Builder.
 
-There are two SLURM job scripts,
 
-    run_equi.slurm
-    run_prod.slurm
 
 
 NOTE: For OpenMM simulation,
