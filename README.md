@@ -11,7 +11,7 @@ Here, we provide example input files for the generation of a BBS from two pre-eq
 
 Contents in directories 
 ----------------------
-    bilayers     : PSF,CRD, and PDB of inidividual bilayers B1 and B2 with system info. (STR)
+    bilayers     : PSF,CRD, and PDB of inidividual bilayers with their system info. (STR); The box center is at the origin (the CHARMM box convention)
     toppar       : CHARMM force field files
     openmm_script: OpenMM simulation (based on CHARMM-GUI Membrane-Builder) and SLURM job scripts
 
