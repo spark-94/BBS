@@ -28,10 +28,19 @@ This is a wrapper script for a CHARMM script,
 
     step3_bbs_assembly.inp
 
+which reads the following files
+
+    toppar.str (for reading CHARMM force field parameters)
+    crystal_image.str (for setting up PBC & Crystal system)
+    checkfft.py (for calc. numbers of grids for PME)
+    setup_dihe_rest.str (for dihedral restraint)
+        - modified from membrane_restraint2.str form Membrane-Builder
+
 which generates output PSF, CRD, PDB, and system information in
 
 	./charmm: CHARMM outputs 
 	./openmm: Inputs for OpenMM simulations
+
 
 	The following scripts are read
 		toppar.str (for reading CHARMM force field parameters)
