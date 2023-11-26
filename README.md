@@ -97,10 +97,10 @@ The ouputs from CHARMM assembly and OpenMM simulations are given in ./example_wi
 
 References
 -----------
-[1] Park, S., & Im, W. (2018). Quantitative Characterization of Cholesterol Partitioning between Binary Bilayers. Journal of Chemical Theory and Computation, 14(6), 2829–2833.
+[1] Park, S., & Im, W. (2018). Quantitative Characterization of Cholesterol Partitioning between Binary Bilayers. Journal of Chemical Theory and Computation, 14(6), 2829–2833. https://doi.org/10.1021/acs.jctc.8b00140
 
-[2] Park, S., Levental, I., Pastor, R. W., & Im, W. (2023). Unsaturated Lipids Facilitate Partitioning of Transmembrane Peptides into the Liquid Ordered Phase. Journal of Chemical Theory and Computation, 19(15), 5303–5314.
+[2] Park, S., Levental, I., Pastor, R. W., & Im, W. (2023). Unsaturated Lipids Facilitate Partitioning of Transmembrane Peptides into the Liquid Ordered Phase. Journal of Chemical Theory and Computation, 19(15), 5303–5314. https://doi.org/10.1021/acs.jctc.3c00398
 
-[3] Park, S., Yeom, M. S., Andersen, O. S., Pastor, R. W., & Im, W. (2019). Quantitative Characterization of Protein-Lipid Interactions by Free Energy Simulation between Binary Bilayers. Journal of Chemical Theory and Computation, 15(11), 6491–6503.
+[3] Park, S., Yeom, M. S., Andersen, O. S., Pastor, R. W., & Im, W. (2019). Quantitative Characterization of Protein-Lipid Interactions by Free Energy Simulation between Binary Bilayers. Journal of Chemical Theory and Computation, 15(11), 6491–6503. https://doi.org/10.1021/acs.jctc.9b00815
 
 [4] Park, S., Pastor R. W., & Im, W., (2023).  Binary Bilayer Simulations for Partitioning Within Membranes, (in preparation).
