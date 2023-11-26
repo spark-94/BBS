@@ -1,7 +1,9 @@
 # BBS 
 
-Binary bilayer system (BBS) is composted of two laterally attached patches of bilayers.\n
+Binary bilayer system (BBS) is composted of two laterally attached patches of bilayers.
 BBS can be easily prepared from two pre-equilibrated individual bilayers.
+
+To maintain interfacec bewteen two bilayers, binary bilayer restraing potential, V(X) are applied to specified lipids in each bilayer.
 
 Here, we provide example scripts for the generation of a BBS from two pre-equilibrated individual Lo- and Ld-phase bilayers with an embedded model transmembrane peptide.
 
