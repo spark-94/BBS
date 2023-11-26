@@ -6,12 +6,8 @@ All required scripts are given in example folder.
 There is another folder, example_with_trajectories, which contains the outputs from the scripts. 
 
 
-#---------------------------------------------------
-# Generation of a BBS from two blayers B1 and B2
-#
-# Soohyung Park, November 25, 2023.
-#
-#---------------------------------------------------
+Soohyung Park, November 25, 2023.
+
 
 Contents
 
