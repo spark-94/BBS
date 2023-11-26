@@ -94,3 +94,12 @@ While the Python and SLURM scripts are copied to ./example/openmm in the assembl
 Example with trajectories
 --------------------------
 The ouputs from CHARMM assembly and OpenMM simulations are given in ./example_with_trajectories.
+
+References
+-----------
+[1] Park, S., & Im, W. (2018). Quantitative Characterization of Cholesterol Partitioning between Binary Bilayers. Journal of Chemical Theory and Computation, 14(6), 2829–2833.
+
+[2] Park, S., Levental, I., Pastor, R. W., & Im, W. (2023). Unsaturated Lipids Facilitate Partitioning of Transmembrane Peptides into the Liquid Ordered Phase. Journal of Chemical Theory and Computation, 19(15), 5303–5314.
+
+[3] Park, S., Yeom, M. S., Andersen, O. S., Pastor, R. W., & Im, W. (2019). Quantitative Characterization of Protein-Lipid Interactions by Free Energy Simulation between Binary Bilayers. Journal of Chemical Theory and Computation, 15(11), 6491–6503.
+
