@@ -76,20 +76,7 @@ COMReporter allows on the fly generation of time series of
 
 While the Python and SLURM scripts are copied to ./example/openmm in the assembly step, the input parameter scripts (*.inp) are not copied. Instead these scripts are updated appropriately for the target position of the MP and saved to ./example/openmm.
 
-Input scripts for simulation
----------------------------
-toppar.str                 : list of paths for CHARMM force field
-step6.x_equilibration.inp  : Input scripts for equilibration
-step7_production.inp       : Input script for production
-
-# NOTE
-#       Simulations input scripts (*.inp) is copied to simulation directory (../openmm)
-#       with updated target X-position (XCOM) for the embedded MP
-#
-#       In this example XCOM is set to the X-box center.
-#       (see *.slurm for details).
-
-Example SLURM job script
+SLURM job script
 -------------------------
 run_equi.slurm          : SLURM script for equilibration (step6.1 - 6.6)
 run_prod.slurm          : SLUMR script for production 
