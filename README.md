@@ -63,22 +63,13 @@ These scripts are based on those provided by CHARMM-GUI Membrane Builder.
 While the Python and SLURM scripts are copied to ./openmm in the assembly step, the input parameter scripts (*.inp) are not copied. Instead these scripts are updated appropriately for the target position of the MP.
 
 
-NOTE: For OpenMM simulation,
-      read README_box_size & README_openmm in openmm_script.
-
-#
-# Based on scripts provided by CHARMM-GUI Membrane-Builder
-#
-# Correspodence: sop316@lehigh.edu or wonpil@lehigh.edu
-# Last updated: November 25, 2023.
-#-------------------------------------------------
 
 Modified or added scripts
 -------------------------
-omm_restraint.py        : Modified to support V(X) and U(X) 
-omm_readinputs.py       : Modified to read paramters for V(X) and U(X)
-omm_comreporter.py      : COMReporter. Added to generate box size & COM of embedded MPs
-openmm_run.py           : Modified to support V(X), U(X), and COMReporter
+    omm_restraint.py        : Modified to support V(X) and U(X) 
+    omm_readinputs.py       : Modified to read paramters for V(X) and U(X)
+    omm_comreporter.py      : COMReporter. Added to generate box size & COM of embedded MPs
+    openmm_run.py           : Modified to support V(X), U(X), and COMReporter
 
 # NOTE
 #       Header section in each python script is updated for OpenMM 7.0 or later versions.
