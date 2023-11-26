@@ -60,12 +60,54 @@ OpenMM equilibration and production runs
 In ./example/openmm_script, scripts for OpenMM simulations are provided.
 These scripts are based on those provided by CHARMM-GUI Membrane Builder.
 
-While the Python scripts and SLURM job scripts are copied to ./openmm in the assembly step, the input parameter scripts (*.inp) are not copied. Instead these scripts are updated appropriately for the target position of the MP.
-
-
-
+While the Python and SLURM scripts are copied to ./openmm in the assembly step, the input parameter scripts (*.inp) are not copied. Instead these scripts are updated appropriately for the target position of the MP.
 
 
 NOTE: For OpenMM simulation,
       read README_box_size & README_openmm in openmm_script.
 
+#
+# Based on scripts provided by CHARMM-GUI Membrane-Builder
+#
+# Correspodence: sop316@lehigh.edu or wonpil@lehigh.edu
+# Last updated: November 25, 2023.
+#-------------------------------------------------
+
+Modified or added scripts
+-------------------------
+omm_restraint.py        : Modified to support V(X) and U(X) 
+omm_readinputs.py       : Modified to read paramters for V(X) and U(X)
+omm_comreporter.py      : COMReporter. Added to generate box size & COM of embedded MPs
+openmm_run.py           : Modified to support V(X), U(X), and COMReporter
+
+# NOTE
+#       Header section in each python script is updated for OpenMM 7.0 or later versions.
+#
+#       V(X): binary bilayer restraining potential
+#       U(X): umbrella potential for the embedded MP.
+#
+#       COMReporter allows on the fly generation of time series of
+#               box size and COM along the X, Y, and Z dimensions
+
+Input scripts for simulation
+---------------------------
+toppar.str                 : list of paths for CHARMM force field
+step6.x_equilibration.inp  : Input scripts for equilibration
+step7_production.inp       : Input script for production
+
+# NOTE
+#       Simulations input scripts (*.inp) is copied to simulation directory (../openmm)
+#       with updated target X-position (XCOM) for the embedded MP
+#
+#       In this example XCOM is set to the X-box center.
+#       (see *.slurm for details).
+
+Example SLURM job script
+-------------------------
+run_equi.slurm          : SLURM script for equilibration (step6.1 - 6.6)
+run_prod.slurm          : SLUMR script for production 
+
+# NOTE
+#       Provided slurm job scripts will not work without appropriate edits.
+#       Edits over lines 1-22 (header part) should be sufficient.
+#       In the end, users are responsible for editing SLURM job scripts for their use.
