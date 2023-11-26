@@ -14,9 +14,9 @@ There is another folder, example_with_trajectories, which contains the outputs f
 
 Contents in directories 
 ----------------------
-    bilayers     : inidividual bilayers B1 and B2 are given
-    toppar       : CHARMM force field are saved
-    openmm_script: template OpenMM scripts are saved
+    bilayers     : PSF,CRD, and PDB of inidividual bilayers B1 and B2 
+    toppar       : CHARMM force field files
+    openmm_script: OpenMM simulations (based on CHARMM-GUI Membrane-Builder) and SLURM job scripts
 
 CHARMM input scripts
 --------------------
