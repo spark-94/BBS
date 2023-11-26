@@ -222,8 +222,6 @@ set fcis   =   250  ! dihedral restraint force constant to keep the cis double b
 set fc2    =   250  ! dihedral restraint force constant to keep the c2  chirality
 
 define TMP sele MEMB .and. BX end
-calc nlipid = ?nsel
-
 stream setup_dihe_rest.str
 
 ! Minimization loop

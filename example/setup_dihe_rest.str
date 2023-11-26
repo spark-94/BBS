@@ -5,6 +5,8 @@
 ! Parameter from main script
 ! TMP : selection for lipids (one atom for each lipid)
 
+calc NLipid = ?nsel
+
 calc nmemb = @NLipid
 
 define STEROL sele ( resn CHL1 .or. resn ERG .or. resn DPOP .or. resn SITO .or. resn STIG -
