@@ -21,6 +21,7 @@ Contents in directories
 Assembly of a BBS
 --------------------
 After modifiyng the CHARMM path in the script run
+
     bash step3_bbs_assembly.sh
 
 
