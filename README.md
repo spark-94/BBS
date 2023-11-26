@@ -67,15 +67,14 @@ These scripts are based on those provided by CHARMM-GUI Membrane Builder.
     omm_comreporter.py      : COMReporter. Added to generate box size & COM of embedded MPs
     openmm_run.py           : Modified to support V(X), U(X), and COMReporter
 
-Header section in each python script is updated for OpenMM 7.0 or later versions.
+Header section in all Python scripts is updated for OpenMM 7.0 or later versions.
 
 V(X) and U(X) are the binary bilayer restraining and umbrella potentials, respectively.
 
 COMReporter allows on the fly generation of time series of
         box size and COM along the X, Y, and Z dimensions
 
-
-While the Python and SLURM scripts are copied to ./openmm in the assembly step, the input parameter scripts (*.inp) are not copied. Instead these scripts are updated appropriately for the target position of the MP
+While the Python and SLURM scripts are copied to ./example/openmm in the assembly step, the input parameter scripts (*.inp) are not copied. Instead these scripts are updated appropriately for the target position of the MP and saved to ./example/openmm.
 
 Input scripts for simulation
 ---------------------------
