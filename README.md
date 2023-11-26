@@ -28,11 +28,6 @@ This is a wrapper script for a CHARMM script,
 
     step3_bbs_assembly.inp
 
-
-CHARMM input scripts
---------------------
-step3_bbs_assembly.inp: CHARMM script to generate a BBS
-
 	use step3_bbs_assembly_mini_snapshots.inp (for PDBs after each minimization)
 
 	outputs will be save to
