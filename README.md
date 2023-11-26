@@ -41,11 +41,11 @@ Generated outputs (PSF, CRD, PDB, and system information) are saved in
 	./charmm: CHARMM outputs 
 	./openmm: Inputs for OpenMM simulations
 
-If BBS configurations after each minimization step is necessary edit 
+If BBS configurations after each minimization step is necessary, edit 
 
     step3_bbs_assembly.sh
 
-where, replace 
+in which, replace 
 
     step3_bbs_assembly.inp
 
@@ -53,7 +53,7 @@ with
 
     step3_bbs_assembly_mini_snapshots.inp
 
-Bash script to run CHARMM (for BBS assembly)
+OpenMM equilibration and production runs for the BBS
 --------------------
 step3_bbs_assembly.sh: a bash script to run CHARMM to generate a BBS &
 		     : prepare inputs for OpenMM simulations in ./openmm
