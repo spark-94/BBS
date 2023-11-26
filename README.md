@@ -89,7 +89,5 @@ If not, one can submit for production runs after equilibration is done,
 
 **Input parameter scripts**
 
-While the Python and SLURM scripts are copied to ./example/openmm in the assembly step, the input parameter scripts (*.inp) are not copied. Instead these scripts are updated appropriately for the target position of the MP and written in ./example/openmm.
-
-See run_equi.slurm and/or run_prod.slurm for details.
+While the Python and SLURM scripts are copied to ./example/openmm in the assembly step, the input parameter scripts (*.inp) are not copied. Instead these scripts are updated appropriately for the target position of the MP and written in ./example/openmm. (See run_equi.slurm and/or run_prod.slurm for details.)
 
