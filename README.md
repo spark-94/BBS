@@ -68,7 +68,7 @@ V(X) and U(X) are the binary bilayer restraining and umbrella potentials, respec
 
 COMReporter allows on the fly generation of time series of
         box size and COM along the X, Y, and Z dimensions.
-Header section in all Python scripts is updated for OpenMM 7.0 or later versions.
+The header section in all Python scripts is updated for OpenMM 7.0 or later versions.
 
 **SLURM job scripts**
 
