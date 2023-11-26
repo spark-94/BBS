@@ -60,8 +60,8 @@ OpenMM equilibration and production runs
 In ./example/openmm_script, scripts for OpenMM simulations are provided.
 These scripts are based on those provided by CHARMM-GUI Membrane Builder.
 
-Modified or added Python scripts
--------------------------
+**Modified or added Python scripts**
+
     omm_restraint.py        : Modified to support V(X) and U(X) 
     omm_readinputs.py       : Modified to read paramters for V(X) and U(X)
     omm_comreporter.py      : COMReporter. Added to generate box size & COM of embedded MPs
