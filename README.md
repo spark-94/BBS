@@ -14,7 +14,6 @@ There is another folder, example_with_trajectories, which contains the outputs f
 
 
 
-Contents
 
 DIRECTORIES
 -------------------
