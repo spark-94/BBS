@@ -93,7 +93,7 @@ While the Python and SLURM scripts are copied to ./example/openmm in the assembl
 
 Example with trajectories
 --------------------------
-The ouputs from CHARMM assembly and OpenMM simulations are given in ./example_with_trajectories with input scripts.
+The ouputs from CHARMM assembly and OpenMM simulations are given in ./example_with_trajectories with input files.
 
 References
 -----------
