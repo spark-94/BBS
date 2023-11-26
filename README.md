@@ -80,6 +80,7 @@ Header section in all Python scripts is updated for OpenMM 7.0 or later versions
 
 Provided slurm job scripts will not work without appropriate edits in the header section (lines 1-22).
 
+**Input parameter scripts**
+
 While the Python and SLURM scripts are copied to ./example/openmm in the assembly step, the input parameter scripts (*.inp) are not copied. Instead these scripts are updated appropriately for the target position of the MP and saved to ./example/openmm.
 
-In the end, users are responsible for editing SLURM job scripts for their use.
