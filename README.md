@@ -12,6 +12,8 @@ Here, we provide example scripts for the generation of a BBS from two pre-equili
 All required scripts are given in example folder.
 There is another folder, example_with_trajectories, which contains the outputs from the scripts. 
 
+*Directories
+
 
 
 
