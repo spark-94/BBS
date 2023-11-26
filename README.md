@@ -41,13 +41,15 @@ Generated outputs (PSF, CRD, PDB, and system information) are saved in
 	./charmm: CHARMM outputs 
 	./openmm: Inputs for OpenMM simulations
 
-If configuration after each minimization step is necessary edit 
+If BBS configurations after each minimization step is necessary edit 
 
     step3_bbs_assembly.sh
 
 where, replace 
+
     step3_bbs_assembly.inp
-with and run CHARMM with the follwing script
+
+with 
 
     step3_bbs_assembly_mini_snapshots.inp
 
