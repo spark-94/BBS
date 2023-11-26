@@ -12,7 +12,8 @@ Here, we provide example scripts for the generation of a BBS from two pre-equili
 All required scripts are given in example folder.
 There is another folder, example_with_trajectories, which contains the outputs from the scripts. 
 
-**Directories in example**
+Directories in example
+----------------------
     bilayers     : where inidividual bilayers B1 and B2 are given
     toppar       : where CHARMM force field are saved
     openmm_script: where template OpenMM scripts are saved
