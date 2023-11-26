@@ -20,9 +20,13 @@ Contents in directories
 
 Assembly of a BBS
 --------------------
-After modifiyng the CHARMM path in the script run
+After modifiyng the path for CHARMM excecutable run
 
     bash step3_bbs_assembly.sh
+
+This is a wrapper script for a CHARMM script,
+
+    step3_bbs_assembly.inp
 
 
 CHARMM input scripts
