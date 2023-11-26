@@ -45,7 +45,9 @@ If configuration after each minimization step is necessary edit
 
     step3_bbs_assembly.sh
 
-and run CHARMM with the follwing script
+where, replace 
+    step3_bbs_assembly.inp
+with and run CHARMM with the follwing script
 
     step3_bbs_assembly_mini_snapshots.inp
 
