@@ -5,7 +5,8 @@ BBS can be easily prepared from two pre-equilibrated individual bilayers.
 
 To maintain interface bewteen two bilayers, the binary bilayer restraing potential, V(X), is applied to specified lipids in each bilayer.
 
-V(X) = k_r (|X-X_ref|-w_r)^2/2
+BBS provides a practical platform for partitioning using either conventional molecular dynamics (MD) or free energy simulations.
+
 
 Here, we provide example scripts for the generation of a BBS from two pre-equilibrated individual Lo- and Ld-phase bilayers with an embedded model transmembrane peptide.
 
