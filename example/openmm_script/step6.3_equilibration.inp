@@ -1,0 +1,39 @@
+nstep       = 125000                            # number of steps to run
+dt          = 0.001                             # time-step (ps)
+
+nstout      = 500 # 1000                              # Writing output frequency (steps)
+nstdcd      = 12500 # 5000                              # Writing coordinates trajectory frequency (steps)
+nstcom      = 500                               # Writing con frequency (2 ps)
+
+coulomb     = PME                               # Electrostatic cut-off method
+ewald_Tol   = 0.0005                            # Ewald error tolerance
+vdw         = Force-switch                      # vdW cut-off method
+r_on        = 1.0                               # Switch-on distance (nm)
+r_off       = 1.2                               # Switch-off distance (nm)
+
+temp        = 298.15                            # Temperature (K)
+fric_coeff  = 1                                 # Friction coefficient for Langevin dynamics
+pcouple     = yes                               # Turn on/off pressure coupling
+p_ref       = 1.0                               # Pressure (Pref or Pxx, Pyy, Pzz; bar)
+p_type      = membrane                          # MonteCarloBarostat type
+p_XYMode    = XYIsotropic                       # For MonteCarloMembraneBarostat
+p_ZMode     = ZFree                             # For MonteCarloMembraneBarostat
+p_tens      = 0.0                               # Sulface tension for MonteCarloMembraneBarostat (dyne/cm)
+p_freq      = 100                               # Pressure coupling frequency (steps)
+
+cons        = HBonds                            # Constraints method
+
+rest        = yes                               # Turn on/off restraints
+fc_bb       = 1000.0                            # Positional restraint force constant for protein backbone (kJ/mol/nm^2)
+fc_sc       = 500.0                             # Positional restraint force constant for protein side-chain (kJ/mol/nm^2)
+fc_lpos     = 400.0                             # Positional restraint force constant for lipids (kJ/mol/nm^2)
+# fc_ldih     = 200.0                             # Dihedral restraint force constant for lipids (kJ/mol/rad^2)
+
+fc_wall     = 100.0                             # Force constant for V(X) (kJ/mol/nm^2) ~ 0.5*1 kcal/mol/A^2
+margin      = 0.2                               # XM (the half width of mixing zone) (nm)
+wall_xref   = 0.5                               # Position of the B1-B2 interface in the BBS (fractional LX)
+
+fc_com      = 753.15                            # Force constant for U(X) (kJ/mol/nm^2)
+                                                # there is no 1/2 factor # 3.60014 kcal/mol/A^2= 1506.2398576 kJ/mol/nm^2
+com         = XCOM                              # Target position for U(X) (nm) – substitute XCOM
+                                                # by an appropriate number (see run_equi.slurm & run_prod.slurm)

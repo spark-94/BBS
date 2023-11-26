@@ -1,0 +1,31 @@
+# Criteria for lateral dimensions of a BBS
+#
+# Soohyung Park, 11/22/2023
+#
+
+LX >= 2 LminX 
+LY = max{LminX , LminY}
+
+LminX = 2 (rP + 3 rL + dres + XM) ~ = 2 (rP + dres + XM + 24) (Angstrom)
+LminY = (Ap + dSA)/ (2 XM)
+
+dres = (kBT / kr)^(1/2)
+
+Lmin,X: Minimum box size of a bilayer along the X-dimension in the BBS
+        to include at least three lipid shells around an embedded MP
+
+Lmin,Y: Minimum box size of a bilyaer along the Y-dimension in the BBS
+        so that the area of mixing zone,  2 * XM * LY >= AP.
+        XM can be calculated from this relation for given AP and LY
+
+XM    : Width of mixing zone (at one side of the bilayer)
+AP    : Area of MP, AP = 2 pi rP^2
+dSA   : Difference in SA between two bilayers B1 and B2 (used for the BBS generation)
+rP    : Effective radius of peptide
+rL    : Effective radius of lipids (an estimate, AL = 64.0 A^2 => rL = 8 A)
+dres  : Root mean penetration depth a lipid to non-native bilayer along X-dimension
+        starting from the edge of the mixing zone. 
+kBT   : Thermal energy; kB - the Boltzmann constant; T - temperature
+kr    : Force constant of the binary bilayer restraining potential, V(X)
+        V(X) = kr/2 * (X-Xref). For B1, Xref = LX/4. For B2, Xref = -LX/4.
+
