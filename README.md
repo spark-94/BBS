@@ -3,7 +3,9 @@
 Binary bilayer system (BBS) is composted of two laterally attached patches of bilayers.
 BBS can be easily prepared from two pre-equilibrated individual bilayers.
 
-To maintain interfacec bewteen two bilayers, binary bilayer restraing potential, V(X) are applied to specified lipids in each bilayer.
+To maintain interface bewteen two bilayers, the binary bilayer restraing potential, V(X), is applied to specified lipids in each bilayer.
+
+V(X) = k_r (|X-X_ref|-w_r)^2/2
 
 Here, we provide example scripts for the generation of a BBS from two pre-equilibrated individual Lo- and Ld-phase bilayers with an embedded model transmembrane peptide.
 
