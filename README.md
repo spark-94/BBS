@@ -20,7 +20,7 @@ Contents in directories
 
 Assembly of a BBS
 --------------------
-After modifiyng the path for CHARMM excecutable run
+After modifiyng the path for CHARMM excecutable, assemble a BBS by running
 
     bash step3_bbs_assembly.sh
 
