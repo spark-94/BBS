@@ -53,7 +53,7 @@ with
 
     step3_bbs_assembly_mini_snapshots.inp
 
-OpenMM equilibration and production runs for the BBS
+OpenMM equilibration and production runs 
 --------------------
 step3_bbs_assembly.sh: a bash script to run CHARMM to generate a BBS &
 		     : prepare inputs for OpenMM simulations in ./openmm
