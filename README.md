@@ -82,8 +82,10 @@ Provided slurm job scripts will not work without appropriate edits in the header
 
     sbatch -J bbs run_equi.slurm
 
-Production run will be submitted automatically after equilibration.
+If allowed, production run will be recursively submitted after equilibration.
+If not, one can submit for production runs after equilibration is done,
 
+    sbatch -J bbs run_prod.slurm
 
 **Input parameter scripts**
 
