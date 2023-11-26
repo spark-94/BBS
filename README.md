@@ -76,12 +76,10 @@ COMReporter allows on the fly generation of time series of
 
 While the Python and SLURM scripts are copied to ./example/openmm in the assembly step, the input parameter scripts (*.inp) are not copied. Instead these scripts are updated appropriately for the target position of the MP and saved to ./example/openmm.
 
-SLURM job script
--------------------------
-run_equi.slurm          : SLURM script for equilibration (step6.1 - 6.6)
-run_prod.slurm          : SLUMR script for production 
+**SLURM job script**
 
-# NOTE
-#       Provided slurm job scripts will not work without appropriate edits.
-#       Edits over lines 1-22 (header part) should be sufficient.
-#       In the end, users are responsible for editing SLURM job scripts for their use.
+    run_equi.slurm          : SLURM script for equilibration (step6.1 - 6.6)
+    run_prod.slurm          : SLUMR script for production 
+
+Provided slurm job scripts will not work without appropriate edits, which requires appropriate edits over lines 1-22 (header section).
+In the end, users are responsible for editing SLURM job scripts for their use.
