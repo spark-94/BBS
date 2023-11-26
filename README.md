@@ -36,18 +36,11 @@ which reads the following files
     setup_dihe_rest.str (for dihedral restraint)
         - modified from membrane_restraint2.str form Membrane-Builder
 
-which generates output PSF, CRD, PDB, and system information in
+Generated outputs (PSF, CRD, PDB, and system information) are saved in
 
 	./charmm: CHARMM outputs 
 	./openmm: Inputs for OpenMM simulations
 
-
-	The following scripts are read
-		toppar.str (for reading CHARMM force field parameters)
-		crystal_image.str (for setting up PBC & Crystal system)
-		checkfft.py (for calc. numbers of grids for PME)
-		setup_dihe_rest.str (for dihedral restraint)
-			- modified from membrane_restraint2.str form Membrane-Builder
 
     use step3_bbs_assembly_mini_snapshots.inp (for PDBs after each minimization)
 
