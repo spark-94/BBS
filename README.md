@@ -73,12 +73,13 @@ COMReporter allows on the fly generation of time series of
         box size and COM along the X, Y, and Z dimensions.
 Header section in all Python scripts is updated for OpenMM 7.0 or later versions.
 
-While the Python and SLURM scripts are copied to ./example/openmm in the assembly step, the input parameter scripts (*.inp) are not copied. Instead these scripts are updated appropriately for the target position of the MP and saved to ./example/openmm.
-
 **SLURM job scripts**
 
     run_equi.slurm          : SLURM script for equilibration (step6.1 - 6.6)
     run_prod.slurm          : SLUMR script for production 
 
 Provided slurm job scripts will not work without appropriate edits in the header section (lines 1-22).
+
+While the Python and SLURM scripts are copied to ./example/openmm in the assembly step, the input parameter scripts (*.inp) are not copied. Instead these scripts are updated appropriately for the target position of the MP and saved to ./example/openmm.
+
 In the end, users are responsible for editing SLURM job scripts for their use.
