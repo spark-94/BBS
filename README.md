@@ -33,7 +33,7 @@ which reads or runs the following files
     setup_dihe_rest.str (for dihedral restraint)
         - modified from membrane_restraint2.str form Membrane-Builder
 
-Generated outputs (PSF, CRD, PDB, and system information) are saved in
+Generated outputs (PSF, CRD, PDB, and system information) will be saved in
 
 	./charmm: CHARMM outputs 
 	./openmm: Inputs for OpenMM simulations
