@@ -55,9 +55,8 @@ with
 
 OpenMM equilibration and production runs 
 --------------------
-step3_bbs_assembly.sh: a bash script to run CHARMM to generate a BBS &
-		     : prepare inputs for OpenMM simulations in ./openmm
-
+In ./example/openmm_script, scripts for OpenMM simulations are provided.
+These scripts are based on those provided by CHARMM-GUI Membrane Builder.
 
 NOTE: For OpenMM simulation,
       read README_box_size & README_openmm in openmm_script.
