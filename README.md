@@ -103,4 +103,4 @@ References
 
 [3] Park, S., Yeom, M. S., Andersen, O. S., Pastor, R. W., & Im, W. (2019). Quantitative Characterization of Protein-Lipid Interactions by Free Energy Simulation between Binary Bilayers. Journal of Chemical Theory and Computation, 15(11), 6491–6503. https://doi.org/10.1021/acs.jctc.9b00815
 
-[4] Park, S., Pastor R. W., & Im, W., (2023).  Binary Bilayer Simulations for Partitioning Within Membranes, (in preparation).
+[4] Park, S., Pastor, R. W., & Im, W., (2023).  Binary Bilayer Simulations for Partitioning Within Membranes, (in preparation).
