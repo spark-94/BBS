@@ -69,8 +69,7 @@ These scripts are based on those provided by CHARMM-GUI Membrane Builder.
 
 Header section in each python script is updated for OpenMM 7.0 or later versions.
 
-V(X): binary bilayer restraining potential
-U(X): umbrella potential for the embedded MP.
+V(X) and U(X) are the binary bilayer restraining and umbrella potentials, respectively.
 
 COMReporter allows on the fly generation of time series of
         box size and COM along the X, Y, and Z dimensions
