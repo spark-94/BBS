@@ -78,10 +78,11 @@ Header section in all Python scripts is updated for OpenMM 7.0 or later versions
     run_equi.slurm          : SLURM script for equilibration (step6.1 - 6.6)
     run_prod.slurm          : SLUMR script for production 
 
-Provided slurm job scripts will not work without appropriate edits in the header section (lines 1-22). After modification submit a SLURM job,
+Provided slurm job scripts will not work without appropriate edits in the header section (lines 1-22). After edit, submit a SLURM job for equilibration
 
     sbatch -J bbs run_equi.slurm
 
+Production run will be submitted automatically after equilibration.
 
 
 **Input parameter scripts**
