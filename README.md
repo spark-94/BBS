@@ -16,7 +16,7 @@ Contents in directories
 ----------------------
     bilayers     : PSF,CRD, and PDB of inidividual bilayers B1 and B2 with system info. (STR)
     toppar       : CHARMM force field files
-    openmm_script: OpenMM simulations (based on CHARMM-GUI Membrane-Builder) and SLURM job scripts
+    openmm_script: OpenMM simulation (based on CHARMM-GUI Membrane-Builder) and SLURM job scripts
 
 Assembly of a BBS
 --------------------
