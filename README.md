@@ -18,6 +18,11 @@ Contents in directories
     toppar       : CHARMM force field files
     openmm_script: OpenMM simulations (based on CHARMM-GUI Membrane-Builder) and SLURM job scripts
 
+Aseemblyt of a BBS
+--------------------
+    bash step3_bbs_assembly.sh
+
+
 CHARMM input scripts
 --------------------
 step3_bbs_assembly.inp: CHARMM script to generate a BBS
