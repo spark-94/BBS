@@ -14,7 +14,7 @@ There is another folder, example_with_trajectories, which contains the outputs f
 
 Contents in directories 
 ----------------------
-    bilayers     : PSF,CRD, and PDB of inidividual bilayers B1 and B2 
+    bilayers     : PSF,CRD, and PDB of inidividual bilayers B1 and B2 with system info. (STR)
     toppar       : CHARMM force field files
     openmm_script: OpenMM simulations (based on CHARMM-GUI Membrane-Builder) and SLURM job scripts
 
@@ -28,7 +28,7 @@ This is a wrapper script for a CHARMM script,
 
     step3_bbs_assembly.inp
 
-which reads the following files
+which reads or runs the following files
 
     toppar.str (for reading CHARMM force field parameters)
     crystal_image.str (for setting up PBC & Crystal system)
@@ -41,8 +41,13 @@ Generated outputs (PSF, CRD, PDB, and system information) are saved in
 	./charmm: CHARMM outputs 
 	./openmm: Inputs for OpenMM simulations
 
+If configuration after each minimization step is necessary edit 
 
-    use step3_bbs_assembly_mini_snapshots.inp (for PDBs after each minimization)
+    step3_bbs_assembly.sh
+
+and run CHARMM with the follwing script
+
+    step3_bbs_assembly_mini_snapshots.inp
 
 Bash script to run CHARMM (for BBS assembly)
 --------------------
