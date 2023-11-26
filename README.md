@@ -28,11 +28,10 @@ This is a wrapper script for a CHARMM script,
 
     step3_bbs_assembly.inp
 
-	use step3_bbs_assembly_mini_snapshots.inp (for PDBs after each minimization)
+which generates output PSF, CRD, PDB, and system information in
 
-	outputs will be save to
-		./charmm: CHARMM outputs 
-		./openmm: Inputs for OpenMM simulations
+	./charmm: CHARMM outputs 
+	./openmm: Inputs for OpenMM simulations
 
 	The following scripts are read
 		toppar.str (for reading CHARMM force field parameters)
@@ -40,6 +39,8 @@ This is a wrapper script for a CHARMM script,
 		checkfft.py (for calc. numbers of grids for PME)
 		setup_dihe_rest.str (for dihedral restraint)
 			- modified from membrane_restraint2.str form Membrane-Builder
+
+    use step3_bbs_assembly_mini_snapshots.inp (for PDBs after each minimization)
 
 Bash script to run CHARMM (for BBS assembly)
 --------------------
