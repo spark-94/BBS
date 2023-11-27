@@ -1,9 +1,9 @@
 nstep       = 250000                            # number of steps to run
 dt          = 0.002                             # time-step (ps)
 
-nstout      = 500 # 1000                              # Writing output frequency (steps)
-nstdcd      = 25000 # 5000                              # Writing coordinates trajectory frequency (steps)
-nstcom      = 500                               # Writing con frequency (2 ps)
+nstout      = 500                               # Writing output frequency (steps)
+nstdcd      = 25000                             # Writing coordinates trajectory frequency (steps)
+nstcom      = 500                               # Frequency of COM writing (steps)
 
 coulomb     = PME                               # Electrostatic cut-off method
 ewald_Tol   = 0.0005                            # Ewald error tolerance
@@ -27,7 +27,7 @@ rest        = yes                               # Turn on/off restraints
 fc_bb       = 50.0                              # Positional restraint force constant for protein backbone (kJ/mol/nm^2)
 fc_sc       = 0.0                               # Positional restraint force constant for protein side-chain (kJ/mol/nm^2)
 
-fc_wall     = 100.0                             # Force constant for V(X) (kJ/mol/nm^2) ~ 0.5*1 kcal/mol/A^2
+fc_wall     = 100.0                             # kr/2 for V(X) (kJ/mol/nm^2) ~ 0.5 kcal/mol/A^2
 margin      = 0.2                               # XM (the half width of mixing zone) (nm)
 wall_xref   = 0.5                               # Position of the B1-B2 interface in the BBS (fractional LX)
 
