@@ -6,6 +6,8 @@ The **binary bilayer system (BBS)** is designed to preserve the lateral packing 
 
 A BBS is composed of two laterally attached patches of bilayers, B1 and B2, which can be conveniently prepared from two pre-equilibrated individual bilayers. To maintain interface bewteen two bilayers, the binary bilayer restraing potential, V(X), is applied to specified lipids in each bilayer. The embedded MP can be restrained as well with an applied umbrella potential, U(X). 
 
+![BBS.pdf]
+
 # Example
 Here, we provide example input files for the generation of a BBS from two pre-equilibrated individual Lo- and Ld-phase bilayers with an embedded model transmembrane peptide.
 
